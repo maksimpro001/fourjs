@@ -1,0 +1,23 @@
+.header {
+  height: 100vh;
+  background-color: #5662f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.header__card-item {
+  height: 200px;
+  width: 200px;
+  transition: all 0.2s;
+}
+
+.header__card-img {
+  height: 100%;
+  width: 100%;
+}
